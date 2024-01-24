@@ -15,5 +15,14 @@ const message = computed(() => props.noItem ? `There's no new <span class="empha
 </script>
 
 <style scoped>
-
+.card {
+  border: 1px solid #f0f0f0;
+  padding: 10px;
+  margin: 10px 0;
+}
+.none-card {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+}
 </style>
